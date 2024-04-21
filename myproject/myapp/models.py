@@ -1,3 +1,11 @@
 from django.db import models
+from django.utils import timezone
 
-# Create your models here.
+
+
+class EmailDraft(models.Model):
+    pass
+
+
+class SentEmail(models.Model):
+    pass
